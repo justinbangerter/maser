@@ -3,11 +3,9 @@ maser
 
 This is a Django plugin that manages unit conversions both in a client-side widget and in the database.
 
-There is support for multiple unit systems, multiple dimensions, and multiple units, of course.
-
-There is an undo/redo feature on the widget in the UI.
-
-Conversions are supported both in the UI and in the server.
+*There is support for multiple unit systems, multiple dimensions, and multiple units, of course.
+*There is an undo/redo feature on the widget in the UI.
+*Conversions are supported both in the UI and in the server.
 
 **Example**
 
