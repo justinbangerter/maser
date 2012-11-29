@@ -7,6 +7,8 @@ There is support for multiple unit systems, multiple dimensions, and multiple un
 
 There is an undo/redo feature on the widget in the UI.
 
+Conversions are supported both in the UI and in the server.
+
 **Example**
 
 Here is a screenshot of the widget.
