@@ -7,9 +7,12 @@ There is support for multiple unit systems, multiple dimensions, and multiple un
 
 There is an undo/redo feature on the widget in the UI.
 
+**Example**
+
+Here is a screenshot of the widget.
+
 ![Maser Widget](/justinbangerter/maser/blob/master/maser-widget.png?raw=true)
 
-===============
 
 **Setup**
 
@@ -21,7 +24,6 @@ The provided fixture in fixtures/initial_data.json has some sample cooking units
 
 You can run manage.py syncUnits to read the database and generate a json object that will be used to populate the widget on the front end.
 
-===============
 
 **Issues**
 
