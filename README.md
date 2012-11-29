@@ -7,7 +7,7 @@ There is support for multiple unit systems, multiple dimensions, and multiple un
 
 There is an undo/redo feature on the widget in the UI.
 
-![Maser Widget](/justinbangerter/maser/blob/master/maser-widget.png)
+![Maser Widget](/justinbangerter/maser/blob/master/maser-widget.png?raw=true)
 
 ===============
 
