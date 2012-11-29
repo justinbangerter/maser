@@ -1,0 +1,17 @@
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/unit.namespace.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/unit.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/quantity.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/dimension.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/system.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/converter.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}units/js/fieldset.js"></script>
+<script type="text/javascript">
+    org.units.initialData = {{converterData|safe}};
+    org.units.converter = new org.units.Converter(org.units.initialData);
+</script>
+<script type="text/x-jquery-tmpl" id="optionTemplate">
+    <option value="${value}">${label}</option>
+</script>
+<script type="text/x-jquery-tmpl" id="unitInputTemplate">
+    {% include 'units-of-measure/_fieldset.html' with quantityId="${quantityId}" systemOpts="{{each(i,opt) systemOpts}}{{tmpl(opt) '#optionTemplate' }}{{/each}}" dimensionOpts="{{each(i,opt) dimensionOpts}}{{tmpl(opt) '#optionTemplate' }}{{/each}}" unitOpts="{{each(i,opt) unitOpts}}{{tmpl(opt) '#optionTemplate' }}{{/each}}" %}
+</script>

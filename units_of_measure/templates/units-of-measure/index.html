@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+    <script type="text/javascript"
+            src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    {% include 'units-of-measure/_initializer.html' %}
+    <title>Units test</title>
+    <script type="text/javascript">
+        $(function () {
+            var q = null;
+            //to initialize the input set, just pass in a quantity and you're done.
+//            var m = org.units.converter.getUnit("L");
+//            var q = new org.units.Quantity(1, m);
+            org.units.converter.createInputSet('#test', q);
+        });
+    </script>
+</head>
+<body>
+<div id="test"></div>
+</body>
+</html>

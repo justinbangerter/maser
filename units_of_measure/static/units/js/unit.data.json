@@ -1,0 +1,958 @@
+{"units":{
+    "UK Vol. gal":{
+        "code":"UK Vol. gal",
+        "ratio":0.00454609,
+        "name":"Gallon (gal)",
+        "dimension_code":"Vol.",
+        "name_plural":"Gallons",
+        "system_code":"UK"
+    },
+    "US Vol. tsp":{
+        "code":"US Vol. tsp",
+        "ratio":4.92892158333333e-06,
+        "name":"Teaspoon (tsp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Teaspoons",
+        "system_code":"US"
+    },
+    "US Vol. fl oz":{
+        "code":"US Vol. fl oz",
+        "ratio":2.95735295e-05,
+        "name":"Fluid Ounce (fl oz)",
+        "dimension_code":"Vol.",
+        "name_plural":"Fluid Ounces",
+        "system_code":"US"
+    },
+    "FDA Vol. Tbsp":{
+        "code":"FDA Vol. Tbsp",
+        "ratio":1.5e-05,
+        "name":"Tablespoon (Tbsp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Tablespoons",
+        "system_code":"FDA"
+    },
+    "SI Mass mg":{
+        "code":"SI Mass mg",
+        "ratio":1e-06,
+        "name":"Milligram (mg)",
+        "dimension_code":"Mass",
+        "name_plural":"Milligrams",
+        "system_code":"SI"
+    },
+    "UK Vol. fl oz":{
+        "code":"UK Vol. fl oz",
+        "ratio":2.841e-05,
+        "name":"Fluid Ounce (fl oz)",
+        "dimension_code":"Vol.",
+        "name_plural":"Fluid Ounces",
+        "system_code":"UK"
+    },
+    "SI Mass kg":{
+        "code":"SI Mass kg",
+        "ratio":1.0,
+        "name":"Kilogram (kg)",
+        "dimension_code":"Mass",
+        "name_plural":"Kilograms",
+        "system_code":"SI"
+    },
+    "SI Mass g":{
+        "code":"SI Mass g",
+        "ratio":0.001,
+        "name":"Gram (g)",
+        "dimension_code":"Mass",
+        "name_plural":"Grams",
+        "system_code":"SI"
+    },
+    "US Vol. fl pt":{
+        "code":"US Vol. fl pt",
+        "ratio":0.000473176472,
+        "name":"Fluid Pint (fl pt)",
+        "dimension_code":"Vol.",
+        "name_plural":"Fluid Pints",
+        "system_code":"US"
+    },
+    "US Vol. cp":{
+        "code":"US Vol. cp",
+        "ratio":0.000236588236,
+        "name":"Cup (cp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Cups",
+        "system_code":"US"
+    },
+    "US Vol. fl gal":{
+        "code":"US Vol. fl gal",
+        "ratio":0.003785411776,
+        "name":"Fluid Gallon (fl gal)",
+        "dimension_code":"Vol.",
+        "name_plural":"Fluid Gallons",
+        "system_code":"US"
+    },
+    "FDA Vol. fl oz":{
+        "code":"FDA Vol. fl oz",
+        "ratio":3e-05,
+        "name":"Fluid Ounce (fl oz)",
+        "dimension_code":"Vol.",
+        "name_plural":"Fluid Ounces",
+        "system_code":"FDA"
+    },
+    "UK Vol. cp":{
+        "code":"UK Vol. cp",
+        "ratio":0.00028413,
+        "name":"Cup (cp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Cups",
+        "system_code":"UK"
+    },
+    "US Len. ft":{
+        "code":"US Len. ft",
+        "ratio":0.3048,
+        "name":"Foot (ft)",
+        "dimension_code":"Len.",
+        "name_plural":"Feet",
+        "system_code":"US"
+    },
+    "SI Vol. mL":{
+        "code":"SI Vol. mL",
+        "ratio":1e-06,
+        "name":"Milliliter (mL)",
+        "dimension_code":"Vol.",
+        "name_plural":"Milliliters",
+        "system_code":"SI"
+    },
+    "US Area in\u00b2":{
+        "code":"US Area in\u00b2",
+        "ratio":1.0,
+        "name":"Square Inch (in\u00b2)",
+        "dimension_code":"Area",
+        "name_plural":"Square Inches",
+        "system_code":"US"
+    },
+    "UK Vol. tsp":{
+        "code":"UK Vol. tsp",
+        "ratio":4.74e-06,
+        "name":"Teaspoon (tsp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Teaspoons",
+        "system_code":"UK"
+    },
+    "SI Len. cm":{
+        "code":"SI Len. cm",
+        "ratio":0.01,
+        "name":"Centimeter (cm)",
+        "dimension_code":"Len.",
+        "name_plural":"Centimeters",
+        "system_code":"SI"
+    },
+    "SI Area cm\u00b2":{
+        "code":"SI Area cm\u00b2",
+        "ratio":0.15500031,
+        "name":"Square Centimeter (cm\u00b2)",
+        "dimension_code":"Area",
+        "name_plural":"Square Centimeters",
+        "system_code":"SI"
+    },
+    "FDA Vol. tsp":{
+        "code":"FDA Vol. tsp",
+        "ratio":5e-06,
+        "name":"Teaspoon (tsp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Teaspoons",
+        "system_code":"FDA"
+    },
+    "US Len. in":{
+        "code":"US Len. in",
+        "ratio":0.0254,
+        "name":"Inch (in)",
+        "dimension_code":"Len.",
+        "name_plural":"Inches",
+        "system_code":"US"
+    },
+    "SI Vol. L":{
+        "code":"SI Vol. L",
+        "ratio":0.001,
+        "name":"Liter (L)",
+        "dimension_code":"Vol.",
+        "name_plural":"Liters",
+        "system_code":"SI"
+    },
+    "SI Vol. m\u00b3":{
+        "code":"SI Vol. m\u00b3",
+        "ratio":1.0,
+        "name":"Cubic Meter (m\u00b3)",
+        "dimension_code":"Vol.",
+        "name_plural":"Cubic Meters",
+        "system_code":"SI"
+    },
+    "FDA Vol. cp":{
+        "code":"FDA Vol. cp",
+        "ratio":0.00024,
+        "name":"Cup (cp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Cups",
+        "system_code":"FDA"
+    },
+    "US Vol. fl qt":{
+        "code":"US Vol. fl qt",
+        "ratio":0.000946352944,
+        "name":"Fluid Quart (fl qt)",
+        "dimension_code":"Vol.",
+        "name_plural":"Fluid Quarts",
+        "system_code":"US"
+    },
+    "SI Len. m":{
+        "code":"SI Len. m",
+        "ratio":1.0,
+        "name":"Meter (m)",
+        "dimension_code":"Len.",
+        "name_plural":"Meters",
+        "system_code":"SI"
+    },
+    "US Vol. Tbsp":{
+        "code":"US Vol. Tbsp",
+        "ratio":1.478676475e-05,
+        "name":"Tablespoon (Tbsp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Tablespoons",
+        "system_code":"US"
+    },
+    "UK Vol. qt":{
+        "code":"UK Vol. qt",
+        "ratio":0.00113652,
+        "name":"Quart (qt)",
+        "dimension_code":"Vol.",
+        "name_plural":"Quarts",
+        "system_code":"UK"
+    },
+    "US Len. yd":{
+        "code":"US Len. yd",
+        "ratio":0.9144,
+        "name":"Yard (yd)",
+        "dimension_code":"Len.",
+        "name_plural":"Yards",
+        "system_code":"US"
+    },
+    "UK Vol. pt":{
+        "code":"UK Vol. pt",
+        "ratio":0.00056826,
+        "name":"Pint (pt)",
+        "dimension_code":"Vol.",
+        "name_plural":"Pints",
+        "system_code":"UK"
+    },
+    "UK Vol. Tbsp":{
+        "code":"UK Vol. Tbsp",
+        "ratio":1.421e-05,
+        "name":"Tablespoon (Tbsp)",
+        "dimension_code":"Vol.",
+        "name_plural":"Tablespoons",
+        "system_code":"UK"
+    },
+    "US Mass lb":{
+        "code":"US Mass lb",
+        "ratio":0.3401942775,
+        "name":"Pound (lb)",
+        "dimension_code":"Mass",
+        "name_plural":"Pounds",
+        "system_code":"US"
+    },
+    "US Mass oz":{
+        "code":"US Mass oz",
+        "ratio":0.028349523125,
+        "name":"Ounce (oz)",
+        "dimension_code":"Mass",
+        "name_plural":"Ounces",
+        "system_code":"US"
+    }
+}, "systems":{
+    "FDA":{
+        "system":{
+            "code":"FDA",
+            "name":"Food and Drug Administration Units",
+            "description":"Units defined by the FDA"
+        },
+        "dimensions":{
+            "Vol.":{
+                "units":{
+                    "FDA Vol. cp":{
+                        "code":"FDA Vol. cp",
+                        "ratio":0.00024,
+                        "name":"Cup (cp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Cups",
+                        "system_code":"FDA"
+                    },
+                    "FDA Vol. fl oz":{
+                        "code":"FDA Vol. fl oz",
+                        "ratio":3e-05,
+                        "name":"Fluid Ounce (fl oz)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Fluid Ounces",
+                        "system_code":"FDA"
+                    },
+                    "FDA Vol. Tbsp":{
+                        "code":"FDA Vol. Tbsp",
+                        "ratio":1.5e-05,
+                        "name":"Tablespoon (Tbsp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Tablespoons",
+                        "system_code":"FDA"
+                    },
+                    "FDA Vol. tsp":{
+                        "code":"FDA Vol. tsp",
+                        "ratio":5e-06,
+                        "name":"Teaspoon (tsp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Teaspoons",
+                        "system_code":"FDA"
+                    }
+                },
+                "dimension":{
+                    "code":"Vol.",
+                    "name":"Volume",
+                    "normal_unit":"m\u00b3"
+                }
+            }
+        }
+    },
+    "SI":{
+        "system":{
+            "code":"SI",
+            "name":"International System of Units",
+            "description":"The international system of units."
+        },
+        "dimensions":{
+            "Vol.":{
+                "units":{
+                    "SI Vol. mL":{
+                        "code":"SI Vol. mL",
+                        "ratio":1e-06,
+                        "name":"Milliliter (mL)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Milliliters",
+                        "system_code":"SI"
+                    },
+                    "SI Vol. L":{
+                        "code":"SI Vol. L",
+                        "ratio":0.001,
+                        "name":"Liter (L)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Liters",
+                        "system_code":"SI"
+                    },
+                    "SI Vol. m\u00b3":{
+                        "code":"SI Vol. m\u00b3",
+                        "ratio":1.0,
+                        "name":"Cubic Meter (m\u00b3)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Cubic Meters",
+                        "system_code":"SI"
+                    }
+                },
+                "dimension":{
+                    "code":"Vol.",
+                    "name":"Volume",
+                    "normal_unit":"m\u00b3"
+                }
+            },
+            "Mass":{
+                "units":{
+                    "SI Mass mg":{
+                        "code":"SI Mass mg",
+                        "ratio":1e-06,
+                        "name":"Milligram (mg)",
+                        "dimension_code":"Mass",
+                        "name_plural":"Milligrams",
+                        "system_code":"SI"
+                    },
+                    "SI Mass kg":{
+                        "code":"SI Mass kg",
+                        "ratio":1.0,
+                        "name":"Kilogram (kg)",
+                        "dimension_code":"Mass",
+                        "name_plural":"Kilograms",
+                        "system_code":"SI"
+                    },
+                    "SI Mass g":{
+                        "code":"SI Mass g",
+                        "ratio":0.001,
+                        "name":"Gram (g)",
+                        "dimension_code":"Mass",
+                        "name_plural":"Grams",
+                        "system_code":"SI"
+                    }
+                },
+                "dimension":{
+                    "code":"Mass",
+                    "name":"Mass",
+                    "normal_unit":"kg"
+                }
+            },
+            "Len.":{
+                "units":{
+                    "SI Len. cm":{
+                        "code":"SI Len. cm",
+                        "ratio":0.01,
+                        "name":"Centimeter (cm)",
+                        "dimension_code":"Len.",
+                        "name_plural":"Centimeters",
+                        "system_code":"SI"
+                    },
+                    "SI Len. m":{
+                        "code":"SI Len. m",
+                        "ratio":1.0,
+                        "name":"Meter (m)",
+                        "dimension_code":"Len.",
+                        "name_plural":"Meters",
+                        "system_code":"SI"
+                    }
+                },
+                "dimension":{
+                    "code":"Len.",
+                    "name":"Length",
+                    "normal_unit":"m"
+                }
+            },
+            "Area":{
+                "units":{
+                    "SI Area cm\u00b2":{
+                        "code":"SI Area cm\u00b2",
+                        "ratio":0.15500031,
+                        "name":"Square Centimeter (cm\u00b2)",
+                        "dimension_code":"Area",
+                        "name_plural":"Square Centimeters",
+                        "system_code":"SI"
+                    }
+                },
+                "dimension":{
+                    "code":"Area",
+                    "name":"Area",
+                    "normal_unit":"in\u00b2"
+                }
+            }
+        }
+    },
+    "UK":{
+        "system":{
+            "code":"UK",
+            "name":"United Kingdom",
+            "description":"Non-SI units typically used in the UK"
+        },
+        "dimensions":{
+            "Vol.":{
+                "units":{
+                    "UK Vol. gal":{
+                        "code":"UK Vol. gal",
+                        "ratio":0.00454609,
+                        "name":"Gallon (gal)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Gallons",
+                        "system_code":"UK"
+                    },
+                    "UK Vol. pt":{
+                        "code":"UK Vol. pt",
+                        "ratio":0.00056826,
+                        "name":"Pint (pt)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Pints",
+                        "system_code":"UK"
+                    },
+                    "UK Vol. qt":{
+                        "code":"UK Vol. qt",
+                        "ratio":0.00113652,
+                        "name":"Quart (qt)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Quarts",
+                        "system_code":"UK"
+                    },
+                    "UK Vol. fl oz":{
+                        "code":"UK Vol. fl oz",
+                        "ratio":2.841e-05,
+                        "name":"Fluid Ounce (fl oz)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Fluid Ounces",
+                        "system_code":"UK"
+                    },
+                    "UK Vol. Tbsp":{
+                        "code":"UK Vol. Tbsp",
+                        "ratio":1.421e-05,
+                        "name":"Tablespoon (Tbsp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Tablespoons",
+                        "system_code":"UK"
+                    },
+                    "UK Vol. tsp":{
+                        "code":"UK Vol. tsp",
+                        "ratio":4.74e-06,
+                        "name":"Teaspoon (tsp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Teaspoons",
+                        "system_code":"UK"
+                    },
+                    "UK Vol. cp":{
+                        "code":"UK Vol. cp",
+                        "ratio":0.00028413,
+                        "name":"Cup (cp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Cups",
+                        "system_code":"UK"
+                    }
+                },
+                "dimension":{
+                    "code":"Vol.",
+                    "name":"Volume",
+                    "normal_unit":"m\u00b3"
+                }
+            }
+        }
+    },
+    "US":{
+        "system":{
+            "code":"US",
+            "name":"United States customary units",
+            "description":"The units typically used in the United States"
+        },
+        "dimensions":{
+            "Vol.":{
+                "units":{
+                    "US Vol. tsp":{
+                        "code":"US Vol. tsp",
+                        "ratio":4.92892158333333e-06,
+                        "name":"Teaspoon (tsp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Teaspoons",
+                        "system_code":"US"
+                    },
+                    "US Vol. fl oz":{
+                        "code":"US Vol. fl oz",
+                        "ratio":2.95735295e-05,
+                        "name":"Fluid Ounce (fl oz)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Fluid Ounces",
+                        "system_code":"US"
+                    },
+                    "US Vol. Tbsp":{
+                        "code":"US Vol. Tbsp",
+                        "ratio":1.478676475e-05,
+                        "name":"Tablespoon (Tbsp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Tablespoons",
+                        "system_code":"US"
+                    },
+                    "US Vol. fl pt":{
+                        "code":"US Vol. fl pt",
+                        "ratio":0.000473176472,
+                        "name":"Fluid Pint (fl pt)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Fluid Pints",
+                        "system_code":"US"
+                    },
+                    "US Vol. cp":{
+                        "code":"US Vol. cp",
+                        "ratio":0.000236588236,
+                        "name":"Cup (cp)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Cups",
+                        "system_code":"US"
+                    },
+                    "US Vol. fl gal":{
+                        "code":"US Vol. fl gal",
+                        "ratio":0.003785411776,
+                        "name":"Fluid Gallon (fl gal)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Fluid Gallons",
+                        "system_code":"US"
+                    },
+                    "US Vol. fl qt":{
+                        "code":"US Vol. fl qt",
+                        "ratio":0.000946352944,
+                        "name":"Fluid Quart (fl qt)",
+                        "dimension_code":"Vol.",
+                        "name_plural":"Fluid Quarts",
+                        "system_code":"US"
+                    }
+                },
+                "dimension":{
+                    "code":"Vol.",
+                    "name":"Volume",
+                    "normal_unit":"m\u00b3"
+                }
+            },
+            "Mass":{
+                "units":{
+                    "US Mass lb":{
+                        "code":"US Mass lb",
+                        "ratio":0.3401942775,
+                        "name":"Pound (lb)",
+                        "dimension_code":"Mass",
+                        "name_plural":"Pounds",
+                        "system_code":"US"
+                    },
+                    "US Mass oz":{
+                        "code":"US Mass oz",
+                        "ratio":0.028349523125,
+                        "name":"Ounce (oz)",
+                        "dimension_code":"Mass",
+                        "name_plural":"Ounces",
+                        "system_code":"US"
+                    }
+                },
+                "dimension":{
+                    "code":"Mass",
+                    "name":"Mass",
+                    "normal_unit":"kg"
+                }
+            },
+            "Len.":{
+                "units":{
+                    "US Len. in":{
+                        "code":"US Len. in",
+                        "ratio":0.0254,
+                        "name":"Inch (in)",
+                        "dimension_code":"Len.",
+                        "name_plural":"Inches",
+                        "system_code":"US"
+                    },
+                    "US Len. yd":{
+                        "code":"US Len. yd",
+                        "ratio":0.9144,
+                        "name":"Yard (yd)",
+                        "dimension_code":"Len.",
+                        "name_plural":"Yards",
+                        "system_code":"US"
+                    },
+                    "US Len. ft":{
+                        "code":"US Len. ft",
+                        "ratio":0.3048,
+                        "name":"Foot (ft)",
+                        "dimension_code":"Len.",
+                        "name_plural":"Feet",
+                        "system_code":"US"
+                    }
+                },
+                "dimension":{
+                    "code":"Len.",
+                    "name":"Length",
+                    "normal_unit":"m"
+                }
+            },
+            "Area":{
+                "units":{
+                    "US Area in\u00b2":{
+                        "code":"US Area in\u00b2",
+                        "ratio":1.0,
+                        "name":"Square Inch (in\u00b2)",
+                        "dimension_code":"Area",
+                        "name_plural":"Square Inches",
+                        "system_code":"US"
+                    }
+                },
+                "dimension":{
+                    "code":"Area",
+                    "name":"Area",
+                    "normal_unit":"in\u00b2"
+                }
+            }
+        }
+    }
+}, "dimensions":{
+    "Vol.":{
+        "units":{
+            "UK Vol. gal":{
+                "code":"UK Vol. gal",
+                "ratio":0.00454609,
+                "name":"Gallon (gal)",
+                "dimension_code":"Vol.",
+                "name_plural":"Gallons",
+                "system_code":"UK"
+            },
+            "US Vol. tsp":{
+                "code":"US Vol. tsp",
+                "ratio":4.92892158333333e-06,
+                "name":"Teaspoon (tsp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Teaspoons",
+                "system_code":"US"
+            },
+            "US Vol. fl oz":{
+                "code":"US Vol. fl oz",
+                "ratio":2.95735295e-05,
+                "name":"Fluid Ounce (fl oz)",
+                "dimension_code":"Vol.",
+                "name_plural":"Fluid Ounces",
+                "system_code":"US"
+            },
+            "FDA Vol. Tbsp":{
+                "code":"FDA Vol. Tbsp",
+                "ratio":1.5e-05,
+                "name":"Tablespoon (Tbsp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Tablespoons",
+                "system_code":"FDA"
+            },
+            "US Vol. Tbsp":{
+                "code":"US Vol. Tbsp",
+                "ratio":1.478676475e-05,
+                "name":"Tablespoon (Tbsp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Tablespoons",
+                "system_code":"US"
+            },
+            "UK Vol. pt":{
+                "code":"UK Vol. pt",
+                "ratio":0.00056826,
+                "name":"Pint (pt)",
+                "dimension_code":"Vol.",
+                "name_plural":"Pints",
+                "system_code":"UK"
+            },
+            "SI Vol. mL":{
+                "code":"SI Vol. mL",
+                "ratio":1e-06,
+                "name":"Milliliter (mL)",
+                "dimension_code":"Vol.",
+                "name_plural":"Milliliters",
+                "system_code":"SI"
+            },
+            "UK Vol. fl oz":{
+                "code":"UK Vol. fl oz",
+                "ratio":2.841e-05,
+                "name":"Fluid Ounce (fl oz)",
+                "dimension_code":"Vol.",
+                "name_plural":"Fluid Ounces",
+                "system_code":"UK"
+            },
+            "FDA Vol. fl oz":{
+                "code":"FDA Vol. fl oz",
+                "ratio":3e-05,
+                "name":"Fluid Ounce (fl oz)",
+                "dimension_code":"Vol.",
+                "name_plural":"Fluid Ounces",
+                "system_code":"FDA"
+            },
+            "US Vol. cp":{
+                "code":"US Vol. cp",
+                "ratio":0.000236588236,
+                "name":"Cup (cp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Cups",
+                "system_code":"US"
+            },
+            "UK Vol. Tbsp":{
+                "code":"UK Vol. Tbsp",
+                "ratio":1.421e-05,
+                "name":"Tablespoon (Tbsp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Tablespoons",
+                "system_code":"UK"
+            },
+            "FDA Vol. tsp":{
+                "code":"FDA Vol. tsp",
+                "ratio":5e-06,
+                "name":"Teaspoon (tsp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Teaspoons",
+                "system_code":"FDA"
+            },
+            "US Vol. fl pt":{
+                "code":"US Vol. fl pt",
+                "ratio":0.000473176472,
+                "name":"Fluid Pint (fl pt)",
+                "dimension_code":"Vol.",
+                "name_plural":"Fluid Pints",
+                "system_code":"US"
+            },
+            "UK Vol. qt":{
+                "code":"UK Vol. qt",
+                "ratio":0.00113652,
+                "name":"Quart (qt)",
+                "dimension_code":"Vol.",
+                "name_plural":"Quarts",
+                "system_code":"UK"
+            },
+            "SI Vol. L":{
+                "code":"SI Vol. L",
+                "ratio":0.001,
+                "name":"Liter (L)",
+                "dimension_code":"Vol.",
+                "name_plural":"Liters",
+                "system_code":"SI"
+            },
+            "US Vol. fl gal":{
+                "code":"US Vol. fl gal",
+                "ratio":0.003785411776,
+                "name":"Fluid Gallon (fl gal)",
+                "dimension_code":"Vol.",
+                "name_plural":"Fluid Gallons",
+                "system_code":"US"
+            },
+            "SI Vol. m\u00b3":{
+                "code":"SI Vol. m\u00b3",
+                "ratio":1.0,
+                "name":"Cubic Meter (m\u00b3)",
+                "dimension_code":"Vol.",
+                "name_plural":"Cubic Meters",
+                "system_code":"SI"
+            },
+            "FDA Vol. cp":{
+                "code":"FDA Vol. cp",
+                "ratio":0.00024,
+                "name":"Cup (cp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Cups",
+                "system_code":"FDA"
+            },
+            "UK Vol. tsp":{
+                "code":"UK Vol. tsp",
+                "ratio":4.74e-06,
+                "name":"Teaspoon (tsp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Teaspoons",
+                "system_code":"UK"
+            },
+            "UK Vol. cp":{
+                "code":"UK Vol. cp",
+                "ratio":0.00028413,
+                "name":"Cup (cp)",
+                "dimension_code":"Vol.",
+                "name_plural":"Cups",
+                "system_code":"UK"
+            },
+            "US Vol. fl qt":{
+                "code":"US Vol. fl qt",
+                "ratio":0.000946352944,
+                "name":"Fluid Quart (fl qt)",
+                "dimension_code":"Vol.",
+                "name_plural":"Fluid Quarts",
+                "system_code":"US"
+            }
+        },
+        "dimension":{
+            "code":"Vol.",
+            "name":"Volume",
+            "normal_unit":"m\u00b3"
+        }
+    },
+    "Mass":{
+        "units":{
+            "US Mass lb":{
+                "code":"US Mass lb",
+                "ratio":0.3401942775,
+                "name":"Pound (lb)",
+                "dimension_code":"Mass",
+                "name_plural":"Pounds",
+                "system_code":"US"
+            },
+            "US Mass oz":{
+                "code":"US Mass oz",
+                "ratio":0.028349523125,
+                "name":"Ounce (oz)",
+                "dimension_code":"Mass",
+                "name_plural":"Ounces",
+                "system_code":"US"
+            },
+            "SI Mass mg":{
+                "code":"SI Mass mg",
+                "ratio":1e-06,
+                "name":"Milligram (mg)",
+                "dimension_code":"Mass",
+                "name_plural":"Milligrams",
+                "system_code":"SI"
+            },
+            "SI Mass kg":{
+                "code":"SI Mass kg",
+                "ratio":1.0,
+                "name":"Kilogram (kg)",
+                "dimension_code":"Mass",
+                "name_plural":"Kilograms",
+                "system_code":"SI"
+            },
+            "SI Mass g":{
+                "code":"SI Mass g",
+                "ratio":0.001,
+                "name":"Gram (g)",
+                "dimension_code":"Mass",
+                "name_plural":"Grams",
+                "system_code":"SI"
+            }
+        },
+        "dimension":{
+            "code":"Mass",
+            "name":"Mass",
+            "normal_unit":"kg"
+        }
+    },
+    "Len.":{
+        "units":{
+            "US Len. in":{
+                "code":"US Len. in",
+                "ratio":0.0254,
+                "name":"Inch (in)",
+                "dimension_code":"Len.",
+                "name_plural":"Inches",
+                "system_code":"US"
+            },
+            "SI Len. cm":{
+                "code":"SI Len. cm",
+                "ratio":0.01,
+                "name":"Centimeter (cm)",
+                "dimension_code":"Len.",
+                "name_plural":"Centimeters",
+                "system_code":"SI"
+            },
+            "US Len. yd":{
+                "code":"US Len. yd",
+                "ratio":0.9144,
+                "name":"Yard (yd)",
+                "dimension_code":"Len.",
+                "name_plural":"Yards",
+                "system_code":"US"
+            },
+            "SI Len. m":{
+                "code":"SI Len. m",
+                "ratio":1.0,
+                "name":"Meter (m)",
+                "dimension_code":"Len.",
+                "name_plural":"Meters",
+                "system_code":"SI"
+            },
+            "US Len. ft":{
+                "code":"US Len. ft",
+                "ratio":0.3048,
+                "name":"Foot (ft)",
+                "dimension_code":"Len.",
+                "name_plural":"Feet",
+                "system_code":"US"
+            }
+        },
+        "dimension":{
+            "code":"Len.",
+            "name":"Length",
+            "normal_unit":"m"
+        }
+    },
+    "Area":{
+        "units":{
+            "US Area in\u00b2":{
+                "code":"US Area in\u00b2",
+                "ratio":1.0,
+                "name":"Square Inch (in\u00b2)",
+                "dimension_code":"Area",
+                "name_plural":"Square Inches",
+                "system_code":"US"
+            },
+            "SI Area cm\u00b2":{
+                "code":"SI Area cm\u00b2",
+                "ratio":0.15500031,
+                "name":"Square Centimeter (cm\u00b2)",
+                "dimension_code":"Area",
+                "name_plural":"Square Centimeters",
+                "system_code":"SI"
+            }
+        },
+        "dimension":{
+            "code":"Area",
+            "name":"Area",
+            "normal_unit":"in\u00b2"
+        }
+    }
+}}

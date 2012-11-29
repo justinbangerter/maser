@@ -1,0 +1,23 @@
+<div class="unitFieldset" id="unitFieldset-{{ quantityId|default:'id' }}">
+    <label for="activeScalar-{{ quantityId|default:'id' }}"></label>
+    <input class="activeScalar" type="text" name="activeScalar-{{ quantityId|default:'id' }}"
+           id="activeScalar-{{ quantityId|default:'id' }}">
+    <label for="activeSystem-{{ quantityId|default:'id' }}"></label>
+    <select class="activeSystem" name="activeSystem-{{ quantityId|default:'id' }}"
+            id="activeSystem-{{ quantityId|default:'id' }}">
+        {{ systemOpts }}
+    </select>
+    <label for="activeDimension-{{ quantityId|default:'id' }}"></label>
+    <select class="activeDimension" name="activeDimension-{{ quantityId|default:'id' }}"
+            id="activeDimension-{{ quantityId|default:'id' }}">
+        {{ dimensionOpts }}
+    </select>
+    <label for="activeUnit-{{ quantityId|default:'id' }}"></label>
+    <select class="activeUnit" name="activeUnit-{{ quantityId|default:'id' }}"
+            id="activeUnit-{{ quantityId|default:'id' }}">
+        {{ unitOpts }}
+    </select>
+    <input type="button" value="Undo" disabled="disabled" id="undo-{{ quantityId|default:'id' }}">
+    <input type="button" value="Redo" disabled="disabled" id="redo-{{ quantityId|default:'id' }}">
+    <input type="button" value="Reset" id="reset-{{ quantityId|default:'id' }}">
+</div>
