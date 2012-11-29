@@ -30,6 +30,10 @@
      * Get a ratio to the supplied unit that, when multiplied on
      * a scalar of a quantity expressed in this unit, will yield
      * the scalar of a quantity expressed in the target unit.
+     * 
+     * In other words...
+     * (scalar in this unit) * this.getRatioToTarget(unit) = 
+     *      (scalar in the other unit)
      *
      * @param unit {Unit} the target unit for the conversion
      * @return {Number}  target/this
@@ -42,6 +46,10 @@
 
     /**
      * Get the ratio that would convert a quantity of this unit to the base unit
+     * 
+     * In other words...
+     * (scalar in this unit) * this.getRatio(unit) = 
+     *      (scalar in the base unit)
      *
      * @return {Number} base/this
      */
