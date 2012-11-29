@@ -20,7 +20,7 @@ You can add it to your project by copying the **units_of_measure** folder into y
 
     'units_of_measure',
     
-The provided fixture in fixtures/initial_data.json has some sample cooking units defined already.  These should be loaded into the database.
+The provided fixture in **fixtures/initial_data.json** has some sample cooking units defined already.  These should be loaded into the database.
 
 You can run **manage.py syncUnits** to read the database and generate a json object that will be used to populate the widget on the front end.
 
