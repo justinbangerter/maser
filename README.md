@@ -16,13 +16,13 @@ Here is a screenshot of the widget.
 
 **Setup**
 
-You can add it to your project by copying the units_of_measure folder into your project and adding this line to your INSTALLED_APPS list.
+You can add it to your project by copying the **units_of_measure** folder into your project and adding this line to your **INSTALLED_APPS** list.
 
     'units_of_measure',
     
 The provided fixture in fixtures/initial_data.json has some sample cooking units defined already.  These should be loaded into the database.
 
-You can run manage.py syncUnits to read the database and generate a json object that will be used to populate the widget on the front end.
+You can run **manage.py syncUnits** to read the database and generate a json object that will be used to populate the widget on the front end.
 
 
 **Issues**
