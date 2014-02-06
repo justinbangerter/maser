@@ -11,7 +11,7 @@ This is a Django plugin that manages unit conversions both in a client-side widg
 
 Here is a screenshot of the widget.
 
-![Maser Widget](/justinbangerter/maser/blob/master/maser-widget.png?raw=true)
+![Maser Widget](https://raw.github.com/justinbangerter/maser/master/maser-widget.png)
 
 
 **Setup**
